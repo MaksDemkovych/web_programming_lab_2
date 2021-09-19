@@ -1,0 +1,63 @@
+.s3__container {
+    margin: 0 auto;
+    max-width: 1140px;
+    padding-top: 75px;
+    flex-direction: column;
+}
+
+.s3__info {
+    text-align: center;
+}
+
+.s3__title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.s3_reviews_block {
+    margin-top: 60px;
+    display: flex;
+    flex-flow: row nowrap;
+    overflow: scroll hidden;
+}
+
+.reviews {
+    width: 400px;
+    height: 230px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+    flex: 0 0 auto;
+    margin-right: 40px;
+}
+
+.person {
+    display: flex;
+}
+
+.info_about_reviewer {
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.info_about_person {
+    margin-left: 20px;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.location {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 2px;
+}
+
+.review {
+    font-size: 16px;
+}

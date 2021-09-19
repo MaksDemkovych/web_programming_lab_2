@@ -1,0 +1,33 @@
+.footer {
+    margin: -160px 0 auto;
+    padding: 180px 30px 10px;
+    background-color: rgb(234, 231, 231);
+}
+
+.footer__container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__social {
+    display: flex;
+}
+
+.footer__icon {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin-right: 20px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 10px 15px #ccc;
+}
+
+.footer__label {
+    padding-top: 13px;
+}

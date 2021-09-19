@@ -1,0 +1,46 @@
+.s1__container {
+    max-width: 1140px;
+    padding-top: 175px;
+    margin: 0 auto 150px;
+}
+
+.s1__inner {
+    display: flex;
+}
+
+.s1__info {
+    flex-direction: column;
+}
+
+.s1__title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 70px;
+    color: black;
+}
+
+.s1__paragraph {
+    margin: 20px 0 0 0;
+}
+
+.s1__image {
+    width: 611px;
+    height: 406px;
+}
+
+.s1__button {
+    margin-top: 50px;
+}
+
+.get__started {
+    cursor: pointer;
+    height: 60px;
+    width: 250px;
+    background-color: red;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0 10px 20px red;
+}

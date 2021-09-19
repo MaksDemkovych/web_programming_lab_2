@@ -1,0 +1,38 @@
+.s4__container {
+    display: flex;
+    justify-content: center;
+    max-width: 1140px;
+    margin: 160px auto 50px;
+}
+
+.s4__inner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 10px;
+    padding: 35px 90px;
+    background-color: white;
+    box-shadow: 0 30px 20px #ccc;
+}
+
+.s4__title {
+    line-height: 50px;
+    font-size: 36px;
+}
+
+.s4__button {
+    align-self: center;
+}
+
+.button__subscribe {
+    cursor: pointer;
+    width: 250px;
+    height: 45px;
+    background-color: red;
+    border: 0;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-weight: 700;
+    box-shadow: 0 10px 20px red;
+}
+
